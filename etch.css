@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+    box-sizing: inherit;
+    font-family: 'Bangers', cursive;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ABACCC;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+
+.mainDiv {
+    width: 600px;
+    height: 600px;
+    border: 8px solid #ffd034;
+    outline: 2px solid #663399;
+    display: grid;
+    gap: 0;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.divFather {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.watching {
+    border: 1px solid #663399;
+}
+
+.divChild {
+    margin: 0;
+    min-height: 10%;
+}
+
+
+#mandos {
+    display: flex;
+    flex-flow: column;
+    font-family: 'Bangers', cursive;
+    border: 8px solid #ffd034;
+    outline: 2px solid #663399;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+#color {
+    background-color: #ffd034;
+    margin-bottom: 10px;
+    width: 80px;
+    border-radius: 10%;
+    border: 2px solid #7619ff;
+}
+
+#textColor {
+    color: #663399;
+}
+
+button {
+    margin-bottom: 10px;
+    background-color: #FFD54D;
+    border: 4px solid #ffd034;
+    color: #7619ff;
+    outline: 2px solid #663399;
+    padding: 10px;
+    border-radius: 10%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button:focus {
+    box-shadow: 1px 1px  #663399;
+}
+button:hover{
+    font-weight: bold;
+}
+
+.containerY {
+    transform: rotate(-90deg);
+    width: 500px;
+    margin-left: -130px;
+    margin-right: -220px;
+}
+#rangeY{
+    width: 600px;
+
+}
+
+.active {
+    background-color: aliceblue;
+}
+
+#bntClear:active {
+    background-color: aliceblue;
+}
+
+#bntRanColor:active {
+    background-color: aliceblue;
+}
+
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border: 2px solid #FFD54D;
+    outline: 2px solid #663399;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border: 2px solid #FFD54D;
+    outline: 2px solid #663399;
+    cursor: pointer;
+}
+
+h1{
+    color: #663399;
+}
+h1:hover{
+    text-shadow: 2px 2px 2px white;
+}
+
+
